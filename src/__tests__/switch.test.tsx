@@ -1,7 +1,8 @@
-import { fireEvent, render, screen } from "@testing-library/react";
-import "@testing-library/jest-dom";
 import { vi } from "vitest";
+import { fireEvent, render, screen } from "@testing-library/react";
 import { Switch } from "../components/switch";
+
+import "@testing-library/jest-dom";
 
 describe("Switch Component", () => {
   it("Render Switch Component", () => {
